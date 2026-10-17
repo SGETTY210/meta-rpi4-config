@@ -35,12 +35,12 @@ LINUX_KERNEL_TYPE = "preempt_rt"
 IMAGE_FSTYPES = "wic.bz2 wic.bmap"
 
 # Serial console on the GPIO header (useful for a minimal image)
-ENABLE_UART = "1"
+#ENABLE_UART = "1"
 
 # Optional: SSH in without a password for development only 
-EXTRA_IMAGE_FEATURES += "ssh-server-openssh allow-empty-password empty-root-password allow-root-login"
+#EXTRA_IMAGE_FEATURES += "ssh-server-openssh allow-empty-password empty-root-password allow-root-login"
 
-IMAGE_INSTALL:append = " rt-tests static-ip openssh"
+IMAGE_INSTALL:append = " rt-tests"
 
 # These are some of the more commonly used values. Looking at the files in the
 # meta/conf/machine directory, or the conf/machine directory of any additional layers
