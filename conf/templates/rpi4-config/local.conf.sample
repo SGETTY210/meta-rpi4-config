@@ -40,7 +40,7 @@ ENABLE_UART = "1"
 # Optional: SSH in without a password for development only 
 EXTRA_IMAGE_FEATURES += "ssh-server-openssh allow-empty-password empty-root-password allow-root-login"
 
-IMAGE_INSTALL:append = " rt-tests"
+IMAGE_INSTALL:append = " rt-tests static-ip openssh"
 
 # These are some of the more commonly used values. Looking at the files in the
 # meta/conf/machine directory, or the conf/machine directory of any additional layers
