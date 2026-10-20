@@ -10,6 +10,8 @@ BBLAYERS ?= " \
   ##OEROOT##/../meta-openembedded/meta-oe \
   ##OEROOT##/../meta-openembedded/meta-python \
   ##OEROOT##/../meta-openembedded/meta-networking \
+  ##OEROOT##/../meta-openembedded/meta-multimedia \
   ##OEROOT##/../meta-raspberrypi \
   ##OEROOT##/../meta-rpi4-config \
+  ##OEROOT##/../meta-pipedal \
   "
