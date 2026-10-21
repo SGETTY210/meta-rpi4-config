@@ -21,6 +21,7 @@ IMAGE_INSTALL += "linux-firmware-rpidistro-bcm43455"
 IMAGE_INSTALL += "kernel-modules"
 IMAGE_INSTALL += "net-tools"
 IMAGE_INSTALL += "icu-dev"
+IMAGE_INSTALL += "rt-tests"
 
 IMAGE_FEATURES += "ssh-server-openssh"
 IMAGE_FEATURES += "allow-empty-password"
