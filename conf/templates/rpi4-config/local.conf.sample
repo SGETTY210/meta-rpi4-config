@@ -37,6 +37,8 @@ IMAGE_FSTYPES = "wic.bz2 wic.bmap"
 # Serial console on the GPIO header (useful for a minimal image)
 ENABLE_UART = "1"
 
+DISTRO_FEATURES:append = " alsa pipewire wifi polkit usrmerge"
+
 # Optional: SSH in without a password for development only 
 #EXTRA_IMAGE_FEATURES += "ssh-server-openssh allow-empty-password empty-root-password allow-root-login"
 
